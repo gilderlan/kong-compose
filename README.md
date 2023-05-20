@@ -31,6 +31,7 @@ If you would like to contribute to this project, please open an issue or submit 
 ## References
 
 Kong docs - https://docs.konghq.com/
+
 Kong official image - https://hub.docker.com/_/kong
 
 ## License
