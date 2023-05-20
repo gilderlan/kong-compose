@@ -18,9 +18,20 @@ Clone this repository to your local machine. `git clone git@github.com:gilderlan
 
 Run the command `docker-compose up -d`.
 
+### 4. Verify that Kong Gateway is running
+
+Kong Gateway serves an Admin API on the default port 8001
+
+run `curl --head localhost:8001`. If Kong Gateway is running properly, it will respond with a 200 HTTP code
+
 ## Contributing
 
 If you would like to contribute to this project, please open an issue or submit a pull request.
+
+## References
+
+Kong docs - https://docs.konghq.com/
+Kong official image - https://hub.docker.com/_/kong
 
 ## License
 
